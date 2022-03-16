@@ -17,16 +17,16 @@ function App() {
     setTimeout(() => setIsDisabled(true), 1)
     switch(command){
       case 1:
-        setCarState("Virando à Esquerda");
+        setCarState("Virando à Esquerda.");
         break;
       case 2:
-        setCarState("Virando à Direita");
+        setCarState("Virando à Direita.");
         break;
       case 3:
-        setCarState("Indo para traz");
+        setCarState("Indo para traz.");
         break;
       case 4:
-        setCarState("Indo para frente");
+        setCarState("Indo para frente.");
         break;
         
     }
